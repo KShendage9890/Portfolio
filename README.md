@@ -43,10 +43,6 @@
 ├── resume.html
 ├── academics.html
 ├── projects.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
 └── assets/
     └── images/
 </code></pre>
