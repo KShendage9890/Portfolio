@@ -67,40 +67,7 @@
     <strong>Komal Shendage</strong><br>
     <a href="https://github.com/kshendage9890" target="_blank">https://github.com/kshendage9890</a>
   </p>
-<style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      background-color: #f8f9fa;
-      color: #212529;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #0d6efd;
-    }
-    pre {
-      background-color: #e9ecef;
-      padding: 1rem;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    code {
-      color: #d63384;
-      font-weight: bold;
-    }
-    a {
-      color: #0d6efd;
-      text-decoration: none;
-      }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul, ol {
-      padding-left: 1.5rem;
-    }
-  </style>
+
 
 </body>
 </html>
