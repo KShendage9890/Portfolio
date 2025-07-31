@@ -5,44 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio Website README</title>
 </head>
+  
 <body>
 
-  <!-- Moved CSS here inside body -->
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      background-color: #f8f9fa;
-      color: #212529;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #0d6efd;
-    }
-    pre {
-      background-color: #e9ecef;
-      padding: 1rem;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    code {
-      color: #d63384;
-      font-weight: bold;
-    }
-    a {
-      color: #0d6efd;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul, ol {
-      padding-left: 1.5rem;
-    }
-  </style>
-
+  
+    
   <h1>👩‍💻 Personal Portfolio Website</h1>
   <p>This is my <strong>Personal Portfolio Website</strong>, built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and deployed using <strong>GitHub Pages</strong>.</p>
 
@@ -100,6 +67,40 @@
     <strong>Komal Shendage</strong><br>
     <a href="https://github.com/kshendage9890" target="_blank">https://github.com/kshendage9890</a>
   </p>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #0d6efd;
+    }
+    pre {
+      background-color: #e9ecef;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      color: #d63384;
+      font-weight: bold;
+    }
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+      }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+  </style>
 
 </body>
 </html>
