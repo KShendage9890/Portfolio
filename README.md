@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio Website README</title>
+</head>
+<body>
+
+  <!-- Moved CSS here inside body -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -38,15 +42,13 @@
       padding-left: 1.5rem;
     }
   </style>
-</head>
-<body>
 
   <h1>👩‍💻 Personal Portfolio Website</h1>
-  <p>This is my <strong>Personal Portfolio Website</strong>, built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and deployed with <strong>GitHub Pages</strong>.</p>
+  <p>This is my <strong>Personal Portfolio Website</strong>, built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, and deployed using <strong>GitHub Pages</strong>.</p>
 
   <h2>🔗 Live Link</h2>
   <p>
-    Visit the site here: 
+    Visit here:
     <a href="https://kshendage9890.github.io/Portfolio/" target="_blank">
       https://kshendage9890.github.io/Portfolio/
     </a>
@@ -54,10 +56,10 @@
 
   <h2>🚀 Features</h2>
   <ul>
-    <li>Fully responsive layout</li>
-    <li>Navigation bar linking to Resume, Academics, and Projects</li>
-    <li>Separate pages for skills, academics, and project showcase</li>
-    <li>Modern and clean UI using Bootstrap</li>
+    <li>Responsive design</li>
+    <li>Navbar with links to Resume, Academics, and Projects</li>
+    <li>Project showcase page</li>
+    <li>Clean and modern UI</li>
   </ul>
 
   <h2>🛠 Tech Stack</h2>
@@ -85,19 +87,18 @@
 
   <h2>📌 How to Use</h2>
   <ol>
-    <li>Clone the repository:
+    <li>Clone the repo:
       <pre><code>git clone https://github.com/kshendage9890/Portfolio.git</code></pre>
     </li>
-    <li>Open <code>index.html</code> in your browser</li>
-    <li>Edit content to add your own projects and resume</li>
-    <li>Push changes to GitHub — the site will auto-update if GitHub Pages is enabled</li>
+    <li>Open <code>index.html</code> in a browser</li>
+    <li>Customize content as needed</li>
+    <li>Push updates to GitHub — it auto-deploys!</li>
   </ol>
 
   <h2>🧑‍💻 Author</h2>
-  <p><strong>Komal Shendage</strong><br>
-    GitHub: <a href="https://github.com/kshendage9890" target="_blank">
-      https://github.com/kshendage9890
-    </a>
+  <p>
+    <strong>Komal Shendage</strong><br>
+    <a href="https://github.com/kshendage9890" target="_blank">https://github.com/kshendage9890</a>
   </p>
 
 </body>
