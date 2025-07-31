@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects - GitHub Links</title>
+  <style>
+    body {
+      background-color: #1a1a2e;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .project-box {
+      background-color: #0f3460;
+      width: 250px;
+      min-height: 250px;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project-box:hover {
+      transform: scale(1.05) translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+
+    .project-box a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #00ffcc;
+      color: #0f3460;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .project-box a::after {
+      content: " ➜";
+      transition: transform 0.3s;
+    }
+
+    .project-box a:hover {
+      background-color: #00e6e6;
+      transform: scale(1.05);
+    }
+
+    .project-box a:hover::after {
+      transform: translateX(4px);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Projects</h1>
+  
+  <div class="project-container">
+    <div class="project-box">
+      <h3>Portfolio Website</h3>
+      <p><strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong></p>
+      <p>Used to create a responsive navigation bar with menu links like Home, Skills, Projects using Bootstrap’s layout.</p>
+      <p>Embeds my PDF resume directly into the page for users to view without downloading.</p>
+      <a href="https://github.com/KShendage9890/Portfolio.git" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-box">
+      <h3>Electricity Billing System</h3>
+      <p><strong>Java</strong>, <strong>MySQL</strong></p>
+      <p> Developed a desktop application using Java Swing to manage electricity billing operations.</p>
+  <P></P>Used JDBC to connect the Swing frontend to a MySQL database for persistent storage.
+ 2024</P>
+  <p>Provided admin functionality to add/view customer bills and user functionality to update profiles and view billing info .</p>
+      <a href="https://github.com/KShendage9890/ElectricityBilingSystem.git" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-box">
+      <h3>Biomax Attendance System</h3>
+      <p><strong>Spring Boot</strong>,<strong>NetCat</strong></p>
+      <p>Created a Spring Boot backend that listens for biometric logs sent over TCP using Netcat.</p>
+ <p> Parsed and validated biometric data using Java, storing it in MySQL using JPA.</p>
+      <a href="https://github.com/KShendage9890/AttendanceSystemusing_NCAT" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+
+</body>
+</html>

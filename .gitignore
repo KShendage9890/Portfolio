@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node modules (if using Node later)
+node_modules/
+
+# Logs
+*.log
+
+# Environment files (if any)
+.env
+
+# IDE-specific folders
+.vscode/
+.idea/
+
+# Build folders
+dist/
+build/
